@@ -1,0 +1,22 @@
+name: eddieantonio
+markdown: kramdown
+
+safe: true
+
+# Some metadata... like my social media handles, etc.
+me:
+  github: https://github.com/shaifulcse
+  website: https://sites.google.com/site/shaifulhome/home
+  cv: /cv/
+  twitter: https://twitter.com/shaiful_cs
+  blog: https://shaifulcse.github.io//blog/
+  keybase: https://keybase.io/eddieantonio
+
+sass:
+  style: compressed
+
+plugins:
+   - jekyll-redirect-from
+
+whitelist:
+    - jekyll-redirect-from
