@@ -14,3 +14,9 @@ source ~/.bashrc
 3. gem install jekyll bundler
 
 4. bundle install
+
+When the installations are done:
+run bundle exec jekyll serve'
+
+and browse: 
+http://127.0.0.1:4000/
