@@ -16,7 +16,7 @@ source ~/.bashrc
 4. bundle install
 
 When the installations are done:
-run bundle exec jekyll serve'
+run: bundle exec jekyll serve'
 
 and browse: 
 http://127.0.0.1:4000/
