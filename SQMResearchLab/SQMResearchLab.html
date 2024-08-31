@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SQM Research Lab</title>
+    <link rel="stylesheet" href="SQMResearchLabStyles.css">
+</head>
+<body>
+    <!-- Side Navigation -->
+    <div id="side-nav" class="side-nav">
+        <button class="close-btn" onclick="closeNav()">&times;</button>
+        <a href="#research-focus">Research Focus</a>
+        <a href="#director">Director</a>
+        <a href="#current-employees">Current Employees and Students</a>
+        <a href="#past-employees">Past Employees and Students</a>
+    </div>
+
+    <!-- Header and Main Content -->
+    <header>
+        <button class="open-btn" onclick="openNav()">&#9776;</button>
+        <h1>Software Quality and Maintenance Research Lab (SQM Research Lab)</h1>
+    </header>
+
+    <br> 
+    <br>
+
+    <main id="main-content" class="main-content">
+        <!-- Collapsible Sections -->
+        <div class="collapsible-section" id="research-focus">
+            <button class="collapsible" onclick="toggleCollapse(event)">Research Focus</button>
+            <div class="content" style="display: block;"> <!-- Section open by default -->
+                <p align="justify">
+                    SQM Research Lab is committed to assisting software practitioners in developing energy-efficient (green computing), bug-free, and maintainable software. We also create tools to push the boundaries of software engineering research. Our research is funded by the Natural Sciences and Engineering Research Council of Canada (NSERC) and the University of Manitoba.
+
+<strong>We are currently offering multiple openings for PhD and MSc positions starting in September 2025</strong>. If you're interested in joining our team, please reach out to Dr. Shaiful Chowdhury at shaiful.chowdhury at umanitoba.ca. Be sure to explain your motivation for wanting to work with us and attach your CV. If we think you are a good fit, we will come back to you by December 2024.
+                </p>
+            </div>
+        </div>
+
+        <div class="collapsible-section" id="director">
+            <button class="collapsible" onclick="toggleCollapse(event)">Director</button>
+            <div class="content" style="display: block;"> <!-- Section open by default -->
+                <div class="profile">
+                    <img src="SQMResearchLabImages/ShaifulChowdhury.jpg" alt="Director Image"> 
+                    
+                    <div>
+                        <b>Dr. Shaiful Chowdhury</b>
+                        <p align="justify">
+                           <a href = https://shaifulc.github.io/>Dr. Shaiful Chowdhury</a> is the Director of the SQM Research Lab and an Assistant Professor in the Department of Computer Science at the University of Manitoba, Winnipeg, Canada. He completed his postdoctoral research at the University of Calgary and the University of British Columbia. Dr. Chowdhury earned his Ph.D. from the University of Alberta, where his dissertation received the <strong>Outstanding PhD Thesis Award</strong>. He holds an MSc in Computer Science from the University of Saskatchewan and a BSc in Computer Science from the University of Chittagong, Bangladesh.
+
+Dr. Chowdhury's research interests encompass software maintenance, software energy modeling and efficiency, and mining software repositories. His accolades include the <strong>ACM SIGSOFT Distinguished Paper Award at ICSE 2021</strong>, the Early Achievement Award in PhD (Computing Science) from the University of Alberta, and the Mining Challenge Paper Award at MSR 2015. Dr. Chowdhury's research was featured by the <a href = "https://globalnews.ca/news/4643134/university-of-alberta-research-smartphone-apps-batteries/">Global News Canada</a>, <a href = "https://www.cs.ubc.ca/news/2021/06/new-tool-digging-source-code-takes-seconds">University of British Columbia News</a>, and <a href = "https://www.ualberta.ca/en/science/news/2018/november/phone-apps-improving-battery-usage.html">University of Alberta News</a>. 
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="collapsible-section" id="current-employees">
+            <button class="collapsible" onclick="toggleCollapse(event)">Current Employees and Students</button>
+            <div class="content" style="display: block;"> <!-- Section open by default -->
+                
+                <div class="profile">
+                    <img src="SQMResearchLabImages/MdShahidulIslam.jpg" alt="Shahidul Islam">
+                    <div>
+                        <b>MD Shahidul Islam</b>
+                        <p align="justify">
+                            Shahidul is currently pursuing an MSc in Computer Science under the supervision of Dr. Shaiful Chowdhury, with a research focus on accurate source code history construction. Prior to moving to Canada, he served as an Engineering Manager at Kona Software Lab Ltd. Shahidul earned his BSc in Computer Science from Khulna University of Engineering and Technology (KUET).
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="profile">
+                    <img src="SQMResearchLabImages/MdNahidulIslamOpu.jpg" alt="Nahidul Islam">
+                    <div>
+                        <b>Md Nahidul Islam Opu</b>
+                        <p align="justify">
+                            Nahidul is currently pursuing an MSc in Computer Science under the guidance of Dr. Shaiful Chowdhury. His research centers on developing innovative methods for software maintenance, quality assurance, and AI-driven solutions. Previously, he worked as a software engineer at Tiger IT Bangladesh Ltd. Nahidul earned his BSc in Computer Science and Engineering from Chittagong University of Engineering and Technology (CUET). 
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="collapsible-section" id="past-employees">
+            <button class="collapsible" onclick="toggleCollapse(event)">Past Employees and Students</button>
+            <div class="content" style="display: block;"> <!-- Section open by default -->
+                <div class="profile">
+                    <img src="SQMResearchLabImages/dummy.jpg" alt="Past Employee 1 Image">
+                    <div>
+                        <b>Fatima Islam Mouri</b>
+                        <p align="justify">
+                        Fatima served as a research assistant in 2024. Before that she earned her MSc from the University of Winnipeg, Canada. At the SQM Research Lab, her work concentrated on analyzing the correlation between internal and external software metrics." 
+                        </p>
+                    </div>
+                </div>
+                <div class="profile">
+                    <img src="SQMResearchLabImages/dummy.jpg" alt="Past Employee 2 Image">
+                    <div>
+                        <b>Hisham Kidwai</b>
+                        <p align="justify">
+                        Hisham completed a summer internship under the guidance of Dr. Chowdhury. He is currently pursuing his undergraduate studies in the Department of Computer Science. His research during the internship focused on analyzing the impact of technical debt on software maintenance.
+                        </p>
+                    </div>
+                </div>
+                <div class="profile">
+                    <img src="SQMResearchLabImages/dummy.jpg" alt="Past Employee 3 Image">
+                    <div>
+                        <b>Sujana Islam Suhi</b>
+                        <p align="justify">
+                        Sujana completed a summer internship under Dr. Chowdhury’s guidance. She is currently an undergraduate student in the Department of Computer Science. During her internship, Sujana concentrated on extracting knowledge from software repositories, including Stack Overflow.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Software Quality and Maintenance Research Lab. All rights reserved.</p>
+    </footer>
+
+    <!-- JavaScript for Collapsible Sections and Navigation -->
+    <script>
+        function openNav() {
+            document.getElementById("side-nav").style.width = "250px";
+            document.getElementById("main-content").style.marginLeft = "250px";
+        }
+
+        function closeNav() {
+            document.getElementById("side-nav").style.width = "0";
+            document.getElementById("main-content").style.marginLeft = "0";
+        }
+
+        function toggleCollapse(event) {
+            const content = event.target.nextElementSibling;
+            content.style.display = content.style.display === 'block' ? 'none' : 'block';
+        }
+    </script>
+</body>
+</html>
